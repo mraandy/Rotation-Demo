@@ -34,4 +34,8 @@
     self.window.windowLevel = 2;
     [self.window makeKeyAndVisible];
 }
+- (void)close {
+    self.window.hidden = YES;
+    self.window = nil;
+}
 @end
