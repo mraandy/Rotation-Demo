@@ -7,16 +7,22 @@
 //
 
 #import "ViewController.h"
+#import "CustomApp.h"
 
 @interface ViewController ()
+
+@property(strong)CustomApp *app;
 
 @end
 
 @implementation ViewController
 
+- (IBAction)showApp:(id)sender {
+    [self.app show];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.app = [CustomApp new];
 }
 
 

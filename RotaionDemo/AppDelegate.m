@@ -19,7 +19,11 @@
     // Override point for customization after application launch.
     return YES;
 }
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
 
+    return  UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscape;
+
+}
 
 #pragma mark - UISceneSession lifecycle
 

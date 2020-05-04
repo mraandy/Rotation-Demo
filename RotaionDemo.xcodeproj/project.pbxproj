@@ -16,6 +16,11 @@
 		1755B325245E6613003F9031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755B324245E6613003F9031 /* main.m */; };
 		1755B32F245E6613003F9031 /* RotaionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755B32E245E6613003F9031 /* RotaionDemoTests.m */; };
 		1755B33A245E6613003F9031 /* RotaionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755B339245E6613003F9031 /* RotaionDemoUITests.m */; };
+		1755B349245E6666003F9031 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755B348245E6666003F9031 /* TabBarViewController.m */; };
+		1755B34C245E6A64003F9031 /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755B34B245E6A64003F9031 /* CustomWindow.m */; };
+		1755B34F245E6A80003F9031 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755B34E245E6A80003F9031 /* CustomViewController.m */; };
+		1755B352245E6A9B003F9031 /* CustomApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755B351245E6A9B003F9031 /* CustomApp.m */; };
+		17AC2F88245FA5CC000AFE18 /* CustomNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AC2F87245FA5CC000AFE18 /* CustomNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		1755B335245E6613003F9031 /* RotaionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotaionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1755B339245E6613003F9031 /* RotaionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotaionDemoUITests.m; sourceTree = "<group>"; };
 		1755B33B245E6613003F9031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1755B347245E6666003F9031 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		1755B348245E6666003F9031 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		1755B34A245E6A64003F9031 /* CustomWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
+		1755B34B245E6A64003F9031 /* CustomWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
+		1755B34D245E6A80003F9031 /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		1755B34E245E6A80003F9031 /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		1755B350245E6A9B003F9031 /* CustomApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomApp.h; sourceTree = "<group>"; };
+		1755B351245E6A9B003F9031 /* CustomApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomApp.m; sourceTree = "<group>"; };
+		17AC2F86245FA5CC000AFE18 /* CustomNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationViewController.h; sourceTree = "<group>"; };
+		17AC2F87245FA5CC000AFE18 /* CustomNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +99,8 @@
 		1755B306245E660F003F9031 = {
 			isa = PBXGroup;
 			children = (
+				17AC2F86245FA5CC000AFE18 /* CustomNavigationViewController.h */,
+				17AC2F87245FA5CC000AFE18 /* CustomNavigationViewController.m */,
 				1755B311245E660F003F9031 /* RotaionDemo */,
 				1755B32D245E6613003F9031 /* RotaionDemoTests */,
 				1755B338245E6613003F9031 /* RotaionDemoUITests */,
@@ -110,6 +127,14 @@
 				1755B316245E660F003F9031 /* SceneDelegate.m */,
 				1755B318245E660F003F9031 /* ViewController.h */,
 				1755B319245E660F003F9031 /* ViewController.m */,
+				1755B350245E6A9B003F9031 /* CustomApp.h */,
+				1755B351245E6A9B003F9031 /* CustomApp.m */,
+				1755B34A245E6A64003F9031 /* CustomWindow.h */,
+				1755B34B245E6A64003F9031 /* CustomWindow.m */,
+				1755B34D245E6A80003F9031 /* CustomViewController.h */,
+				1755B34E245E6A80003F9031 /* CustomViewController.m */,
+				1755B347245E6666003F9031 /* TabBarViewController.h */,
+				1755B348245E6666003F9031 /* TabBarViewController.m */,
 				1755B31B245E660F003F9031 /* Main.storyboard */,
 				1755B31E245E6613003F9031 /* Assets.xcassets */,
 				1755B320245E6613003F9031 /* LaunchScreen.storyboard */,
@@ -267,9 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1755B349245E6666003F9031 /* TabBarViewController.m in Sources */,
 				1755B31A245E660F003F9031 /* ViewController.m in Sources */,
+				1755B352245E6A9B003F9031 /* CustomApp.m in Sources */,
+				1755B34F245E6A80003F9031 /* CustomViewController.m in Sources */,
 				1755B314245E660F003F9031 /* AppDelegate.m in Sources */,
 				1755B325245E6613003F9031 /* main.m in Sources */,
+				1755B34C245E6A64003F9031 /* CustomWindow.m in Sources */,
+				17AC2F88245FA5CC000AFE18 /* CustomNavigationViewController.m in Sources */,
 				1755B317245E660F003F9031 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,14 +470,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = " 1";
 				INFOPLIST_FILE = RotaionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xixue.cn.RotaionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,14 +488,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = " 1";
 				INFOPLIST_FILE = RotaionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xixue.cn.RotaionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
