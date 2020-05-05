@@ -36,7 +36,7 @@
     return YES;
 }
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-   return UIInterfaceOrientationMaskLandscapeLeft;
+   return UIInterfaceOrientationMaskLandscape;
 }
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
     return UIInterfaceOrientationLandscapeLeft;

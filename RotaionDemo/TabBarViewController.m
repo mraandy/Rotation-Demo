@@ -25,9 +25,7 @@
 {
     return UIInterfaceOrientationMaskPortrait;
 }
-- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
-    
-}
+
 /*
 #pragma mark - Navigation
 

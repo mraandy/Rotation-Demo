@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CustomWindow.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +21,7 @@
     return YES;
 }
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
-
-    return  UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscape;
+    return  UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscape ;
 
 }
 

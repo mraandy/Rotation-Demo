@@ -9,6 +9,7 @@
 #import "CustomApp.h"
 #import "CustomWindow.h"
 #import "CustomViewController.h"
+#import "CustomNavigationViewController.h"
 
 
 @interface CustomApp ()

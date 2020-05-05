@@ -17,5 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
+- (void)viewWillLayoutSubviews {
+    [super viewWillLayoutSubviews];
+    NSLog(@"CustomNavigationViewController - viewWillLayoutSubviews");
+}
 
 @end
